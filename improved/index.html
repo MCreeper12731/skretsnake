@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Game</title>
+  <style>
+    * { margin:0; padding:0; }
+    body { overflow: hidden }
+  </style>
+  <script src="js/init.js"></script>
+  <script src="js/igra.js"></script>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<div id="BlackBox" class="BlackBox"></div>
+<div class="menu" id="menu">
+  <h1>Menu</h1>
+  <p1>To je meni</p1>
+  <br>
+  <button onclick="reload()">Restart</button>
+</div>
+<div class="restart" id="restart">
+  <h1>Umrl si.</h1>
+  <br>
+  <button onclick="reload()">Restart</button>
+</div>
+</body>
+</html>

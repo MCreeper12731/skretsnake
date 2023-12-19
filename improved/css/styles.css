@@ -1,0 +1,31 @@
+.menu {
+  background-color: grey;
+  left: 50%;
+  top: 40%;
+  position: absolute;
+  text-align: center;
+  display: none;
+  z-index: 3;
+}
+
+.BlackBox {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: block;
+  z-index: 2;
+  opacity: 0;
+}
+
+.restart {
+  background-color: grey;
+  left: 50%;
+  top: 40%;
+  position: absolute;
+  text-align: center;
+  display: none;
+  z-index: 3;
+}
